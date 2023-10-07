@@ -1,0 +1,41 @@
+/* Mobile CSS */
+
+@media (max-width: 767px) {
+  /* Dog images */
+
+  .dog-image {
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  /* Dog description and owner story */
+
+  .dog-description,
+  .owner-story {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* Layout */
+
+  .dogs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .dog-description,
+  .owner-story {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+}
