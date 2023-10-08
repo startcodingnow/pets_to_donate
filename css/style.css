@@ -51,10 +51,11 @@ h1 {
   border-radius: 5px;
   margin-bottom: 15px;
   box-shadow: 0 0 10px 0 rgb(29, 27, 27);
+  width: 95%;
   /* width: 80%; */
 }
 
 .dog-description {
   margin: 10px;
-  <script src="script.js"></script>
+  text-decoration: underline;
 }
