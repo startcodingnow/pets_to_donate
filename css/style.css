@@ -35,7 +35,8 @@ h1 {
 
 .dog-image {
   max-width: auto;
-  max-height: 100px;
+  max-height: 210px;
+  border-radius: 5px;
 }
 
 .dog-images {
