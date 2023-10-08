@@ -8,7 +8,6 @@
 @media (max-width: 768px) {
   body {
     flex-direction: column;
-    padding: 10px;
   }
 }
 
@@ -23,13 +22,13 @@ h1 {
 }
 
 .owner-story {
-  width: 748px;
+  width: var(--owner-story-width);
   margin: auto;
   margin-bottom: 50px;
 }
 
 .dogs-container {
-  width: 748px;
+  width: var(--dogs-container-width);
   margin: auto;
 }
 
