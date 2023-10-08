@@ -19,11 +19,11 @@ body {
 }
 
 h1,
-h3 {
+h2 {
   text-align: center;
 }
 
-h3 {
+h2 {
   margin-top: 50px;
 }
 
@@ -71,6 +71,8 @@ h3 {
 
 .contact-form label {
   margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 1.1em;
 }
 
 .contact-form input,
