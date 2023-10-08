@@ -52,4 +52,5 @@ h1 {
 
 .dog-description {
   margin: 10px;
+  text-decoration: underline;
 }
