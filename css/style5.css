@@ -1,3 +1,9 @@
+/* Define CSS variables */
+:root {
+  --owner-story-width: 768px;
+  --dogs-container-width: 768px;
+}
+
 /* Make the webpage mobile-friendly */
 @media (max-width: 768px) {
   body {
@@ -5,6 +11,7 @@
   }
 }
 
+/* Global styles */
 body {
   margin: 0 auto;
   background-color: beige;
@@ -15,35 +22,25 @@ h1 {
 }
 
 .owner-story {
-  /* margin: 50px 100px; */
-  /* text-align: center; */
-  /* width: 75%; */
-  width: 768px;
+  width: var(--owner-story-width);
   margin: auto;
   margin-bottom: 50px;
-  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .dogs-container {
-  /* display: flex; */
-  /* margin: 0 auto; */
-  /* width: 95%; */
-  width: 768px;
+  width: var(--dogs-container-width);
   margin: auto;
 }
 
 .dog-image {
   max-width: auto;
   max-height: 100px;
-  /* display: flex; */
-  /* justify-content: center; */
 }
 
 .dog-images {
   display: flex;
   justify-content: space-around;
   margin: 10px;
-  /* flex-wrap: nowrap; */
 }
 
 .dog {
@@ -51,9 +48,9 @@ h1 {
   border-radius: 5px;
   margin-bottom: 15px;
   box-shadow: 0 0 10px 0 rgb(29, 27, 27);
-  /* width: 80%; */
 }
 
 .dog-description {
   margin: 10px;
+  text-decoration: underline;
 }
