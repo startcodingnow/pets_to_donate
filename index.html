@@ -351,6 +351,30 @@
           <li>No mais, a saúde é perfeita</li>
         </ul>
       </div>
+      <h3>Você pode deixar uma mensagem aqui</h3>
+      <form
+        class="contact-form"
+        action="https://formspree.io/f/xrgwowjj"
+        method="POST"
+      >
+        <label>
+          Nome:
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Telefone:
+          <input type="phone" name="phone_number" />
+        </label>
+        <label>
+          Email:
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Mensagem:
+          <textarea name="message" rows="8" required></textarea>
+        </label>
+        <button type="submit">Enviar</button>
+      </form>
     </div>
     <!-- <script src="script.js"></script> -->
   </body>

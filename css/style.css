@@ -18,8 +18,13 @@ body {
   background-color: beige;
 }
 
-h1 {
+h1,
+h3 {
   text-align: center;
+}
+
+h3 {
+  margin-top: 50px;
 }
 
 .owner-story {
@@ -55,4 +60,30 @@ h1 {
 .dog-description {
   margin: 10px;
   text-decoration: underline;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
 }
