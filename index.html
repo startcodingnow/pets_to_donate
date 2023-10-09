@@ -367,19 +367,29 @@
       >
         <label>
           Nome:
-          <input type="text" name="name" required />
+          <input type="text" name="name" required placeholder="Seu nome" />
         </label>
         <label>
           Telefone:
-          <input type="phone" name="phone_number" />
+          <input
+            type="phone"
+            name="phone_number"
+            placeholder="Seu número de telefone"
+            pattern="[0-9()\-]*"
+          />
         </label>
         <label>
           Email:
-          <input type="email" name="email" required />
+          <input type="email" name="email" required placeholder="Seu e-mail" />
         </label>
         <label>
           Mensagem:
-          <textarea name="message" rows="8" required></textarea>
+          <textarea
+            name="message"
+            rows="8"
+            required
+            placeholder="Sua mensagem"
+          ></textarea>
         </label>
         <button type="submit">Enviar</button>
       </form>
