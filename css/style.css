@@ -57,6 +57,10 @@ h2 {
   margin: 10px;
 }
 
+.dog-images img:hover {
+  transform: scale(1.8);
+}
+
 .dog {
   border: 1px solid burlywood;
   border-radius: 5px;
