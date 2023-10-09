@@ -9,12 +9,12 @@
   <body>
     <header>
       <nav class="navbar">
-        <a href="#">Minha História</a>
-        <a href="#">Cães para adoção</a>
-        <a href="#">Contato</a>
+        <a href="#my-story">Minha História</a>
+        <a href="#dogs-to-adopt">Cães para adoção</a>
+        <a href="#contact">Contato</a>
       </nav>
     </header>
-    <h1>14 cães para adoção</h1>
+    <h1 id="my-story">14 cães para adoção</h1>
     <h4 class="owner-story">
       <p>
         O ano era 2008, adotei meu primeiro animal, uma gatinha. Em 2011, já
@@ -89,7 +89,7 @@
         carinho e atenção.</i
       >
     </h4>
-    <div class="dogs-container">
+    <div id="dogs-to-adopt" class="dogs-container">
       <div class="dog">
         <div class="dog-images">
           <img src="images/bela1.jpeg" class="dog-image" />
@@ -360,6 +360,7 @@
       </div>
       <h2>Você pode deixar uma mensagem aqui</h2>
       <form
+        id="contact"
         class="contact-form"
         action="https://formspree.io/f/xrgwowjj"
         method="POST"
