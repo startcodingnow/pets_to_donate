@@ -57,7 +57,7 @@ h2 {
   margin: 10px;
 }
 
-.dog-images img:hover {
+.dog-images img:active {
   transform: scale(1.8);
 }
 
