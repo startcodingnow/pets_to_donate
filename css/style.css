@@ -124,9 +124,12 @@ h2 {
 }
 
 .contact-form button {
-  width: 100%;
+  /* width: 100%; */
+  align-self: center;
+  width: 200px;
   padding: 10px;
   background-color: var(--primary-color);
   color: white;
   border: none;
+  margin-bottom: 50px;
 }
