@@ -93,6 +93,8 @@ h2 {
   border: 1px solid burlywood;
   border-radius: 5px;
   margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
   box-shadow: 0 0 10px 0 rgb(29, 27, 27);
 }
 
