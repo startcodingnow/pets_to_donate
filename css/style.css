@@ -61,10 +61,24 @@ h2 {
   margin-top: 50px;
 }
 
+h5 {
+  text-align: center;
+  color: purple;
+}
+
 .owner-story {
   width: 748px;
   margin: auto;
   margin-bottom: 50px;
+}
+
+.owner-story p {
+  font-weight: 500;
+}
+
+.location {
+  margin-top: 0;
+  margin-left: 33px;
 }
 
 .dogs-container {
