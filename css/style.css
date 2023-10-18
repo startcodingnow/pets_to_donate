@@ -4,7 +4,8 @@
   --dogs-container-width: 768px;
   --primary-color: teal;
   --secondary-color: orange;
-  --font-family: Roboto, sans-serif;
+  /* --font-family: Roboto, sans-serif; */
+  --font-family: Georgia, Times New Roman, Verdana;
 }
 
 /* Make the webpage mobile-friendly */
