@@ -3,7 +3,7 @@
   --owner-story-width: 768px;
   --dogs-container-width: 768px;
   --primary-color: teal;
-  --secondary-color: orange;
+  --secondary-color: teal;
   /* --font-family: Roboto, sans-serif; */
   --font-family: Georgia, Times New Roman, Verdana;
 }
@@ -43,7 +43,7 @@ body {
 .navbar a {
   text-decoration: none;
   /* color: dimgray; */
-  color: darkolivegreen;
+  color: var(--secondary-color);
 }
 
 .navbar a:hover {
@@ -96,7 +96,7 @@ h4 {
 }
 
 .dog-image {
-  max-width: auto;
+  /* max-width: auto; */
   max-height: 210px;
   border-radius: 5px;
   box-shadow: 0 0 10px 0 rgb(29, 27, 27);
